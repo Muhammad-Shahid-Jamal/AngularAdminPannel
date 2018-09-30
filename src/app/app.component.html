@@ -18,14 +18,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td>Electronics</td>
-          <td>Mobiles</td>
-          <td>Iphone</td>
-          <td>33000</td>
-          <td>Gold</td>
-          <td>1000</td>
-        </tr>
+        <tr class="appItem" *ngFor="let item of items" [item]="item"></tr>
       </tbody>
     </table>
   </div>
