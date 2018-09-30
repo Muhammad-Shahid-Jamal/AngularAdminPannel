@@ -1,0 +1,40 @@
+[
+    {
+        "categories":[
+            {
+                "type":"electronic",
+                "products":[
+                    {
+                        "mobiles":[
+                            {
+                                "brand":[
+                                    {
+                                        "iphone":{
+                                            "name":"iphone6",
+                                            "specs":{
+                                                "release_date": "September 2014",
+                                                "screen_size": 4.70,
+                                                "touchscreen":true,
+                                                "colours":[
+                                                    "Silver",
+                                                    "Gold", 
+                                                    "Space", 
+                                                    "Gray"
+                                                ],
+                                                "extra_payment":{
+                                                    "color":"Gold",
+                                                    "ex_p":1000
+                                                },
+                                                "price":33000
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
