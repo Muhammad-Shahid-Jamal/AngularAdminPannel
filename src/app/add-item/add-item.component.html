@@ -1,0 +1,14 @@
+<div class="row justify-content-md-center">
+  <div class="col-md-6 col-lg-6">
+    <h3>Add Product</h3>
+    <form>
+      <div class="form-group">
+        <label for="category">Select Category</label>
+        <select class="form-control" name="category" #categ (change)="logChange(categ)">
+          <option value="" disabled>Select Category</option>
+          <option value="0">Electronics</option>
+        </select>
+      </div>
+    </form>
+  </div>
+</div>

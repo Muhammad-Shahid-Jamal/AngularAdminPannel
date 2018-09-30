@@ -12,7 +12,7 @@ export class AppComponent implements OnInit {
   constructor(private products: ProductService) {
 
   }
-  ngOnInit(){
+  ngOnInit() {
     this.items = this.products.itemList;
   }
 }
