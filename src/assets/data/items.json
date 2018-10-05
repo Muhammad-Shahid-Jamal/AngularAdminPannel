@@ -1,0 +1,34 @@
+[
+    {
+        "categ": "Electronics",
+        "productName": "Mobiles",
+        "brandName" : "iphone",
+        "price": 33000,
+        "colorName": "Gold",
+        "exPr": 1000
+    },
+    {
+        "categ": "Electronics",
+        "productName": "Mobiles",
+        "brandName" : "iphone",
+        "price": 33000,
+        "colorName": "Gold",
+        "exPr": 1000
+    },
+    {
+        "categ": "Electronics",
+        "productName": "Mobiles",
+        "brandName" : "iphone",
+        "price": 33000,
+        "colorName": "Gold",
+        "exPr": 2000
+    },
+    {
+        "categ": "Electronics",
+        "productName": "Mobiles",
+        "brandName" : "iphone",
+        "price": 33000,
+        "colorName": "Gold",
+        "exPr": 1000
+    }
+]

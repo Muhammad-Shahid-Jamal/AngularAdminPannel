@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { ItemComponent } from './item/item.component';
 import { ProductService } from './product.service';
 import { AddItemComponent } from './add-item/add-item.component';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { AddItemComponent } from './add-item/add-item.component';
     AddItemComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [ProductService],
   bootstrap: [AppComponent]
